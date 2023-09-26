@@ -15,7 +15,7 @@ int main()
     if(percentage<=75){
 cout<<"You are not allowed";
          files.open("data.txt",ios::out);
-         files<<"your percetaage is "<<percentage<<"Which is less then 75 so you are not allowed";
+         files<<"your percetaage is "<< percentage <<" Which is less then 75 so you are not allowed";
 
     }else{
         cout<<"allowed";
